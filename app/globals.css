@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cream text-dark-roast;
+  }
+}
+
+@layer components {
+  .coffee-gradient {
+    background: linear-gradient(135deg, #6B4423 0%, #8B6B3D 100%);
+  }
+  
+  .shadow-coffee {
+    box-shadow: 0 4px 20px rgba(107, 68, 35, 0.3);
+  }
+}
